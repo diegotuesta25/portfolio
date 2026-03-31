@@ -3,12 +3,14 @@ import { useState } from "react";
 import Input from "./input";
 import Button from "./button";
 import { toast } from "sonner";
+import { useTranslations } from "next-intl";
 
 type Status = "idle" | "loading" | "success" | "error";
 
 export default function EmailForm() {
 	const [status, setStatus] = useState<Status>("idle");
 	const [errorMsg, setErrorMsg] = useState("");
+	const t = useTranslations("contact");
 
 	async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 		e.preventDefault();
@@ -39,13 +41,13 @@ export default function EmailForm() {
 
 			setStatus("success");
 			form.reset();
-			toast.success("Message sent successfully!", {
+			toast.success(t("success"), {
 				style: { background: "#59C26D", color: "white", border: "#59C26D" },
 			});
 		} catch {
 			setErrorMsg("Network error. Please check your connection.");
 			setStatus("error");
-			toast.error("Network error. Please check your connection.", {
+			toast.error(t("error"), {
 				style: { background: "#960019", color: "white", border: "#960019" },
 			});
 		}
@@ -53,15 +55,15 @@ export default function EmailForm() {
 	return (
 		<form onSubmit={handleSubmit}>
 			<div className="flex flex-col gap-4 items-start">
-				<h1 className="text-white font-medium text-3xl">Email me!</h1>
+				<h1 className="text-white font-medium text-3xl">{t("subtitle")}</h1>
 				<div className="flex gap-4 w-full">
-					<Input type="text" placeholder="Name" name="name" />
-					<Input type="email" placeholder="Email" name="email" />
+					<Input type="text" placeholder={t("name")} name="name" />
+					<Input type="email" placeholder={t("email")} name="email" />
 				</div>
-				<Input type="text" placeholder="Title" name="title" />
-				<Input placeholder="Message" multiline name="message" />
+				<Input type="text" placeholder={t("title")} name="title" />
+				<Input placeholder={t("message")} multiline name="message" />
 				<Button variant="primary" isSubmit>
-					Send
+					{t("send")}
 				</Button>
 			</div>
 		</form>

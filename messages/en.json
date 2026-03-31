@@ -1,0 +1,59 @@
+{
+	"nav": {
+		"home": "home",
+		"projects": "projects",
+		"aboutMe": "about-me",
+		"contacts": "contacts"
+	},
+	"hero": {
+		"title": "Diego is a <primary>front-end developer</primary> and <primary>problem solver</primary>",
+		"subtitle": "He crafts responsive websites where technologies meet creativity",
+		"contactBtn": "Contact me!!",
+		"downloadCV": "Download CV",
+		"textBox": "Available for <bold>work</bold>."
+	},
+	"projects": {
+		"title": "projects",
+		"completeApps": "complete-apps",
+		"smallProjects": "small-projects",
+		"viewAllBtn": "View all ~~>",
+		"liveBtn": "Live <~>",
+		"appDescription1": "Manage your daily tasks: track what’s done, pending, and in progress.",
+		"smallApp1": "Fetch all the Pokemons"
+	},
+	"aboutMe": {
+		"p1": "Hello, I'm Diego!",
+		"p2": "I'm a front-end developer based in Lima, Peru, with a degree in Informatics Engineering from the Pontifical Catholic University of Peru, the top university in the country.",
+		"p3": " I specialize in building responsive, modern web experiences from scratch, turning ideas into clean and functional interfaces. Bridging technical knowledge with a strong eye for design has been my drive since I started coding.",
+		"p4": "I'm currently focused on growing as a front-end developer, working with technologies like React, Next.js, TypeScript and Tailwind to build fast and user-friendly products. I'm always pushing to learn what's next in the frontend world and looking for the right team to grow with.",
+		"languages": "Languages",
+		"frameworks": "Frameworks",
+		"tools": "Tools",
+		"databases": "Databases",
+		"howIThink": "how-i-think",
+		"skills": "skills",
+		"aboutMe": "about-me",
+		"t1": "I approach development by <b> building things from scratch </b>and <b>understanding how they work</b> internally.",
+		"t2": "I enjoy <b>turning ideas into real</b>, functional products through <b>hands-on practice</b>.",
+		"t3": "I pay close attention not only to <b>how things work</b>, but also to <b>how they feel and look</b>.",
+		"t4": "I care about <b>creating interfaces</b> that are <b>clean, intuitive,</b> and <b>user-friendly</b>.",
+		"t5": "I'm constantly <b>learning by building, iterating and improving</b> with every project."
+	},
+	"contact": {
+		"mainTitle": "contacts",
+		"name": "Name",
+		"email": "Email",
+		"message": "Message",
+		"title": "Title",
+		"send": "Send",
+		"subtitle": "Email me!",
+		"sending": "Sending...",
+		"success": "Message sent! I'll get back to you soon ✅",
+		"error": "Message sent successfully ",
+		"text": "I'm currently looking for full-time or internship opportunities in front-end development. That said, if you have any questions or just want to connect, don't hesitate to reach out."
+	},
+	"footer": {
+		"degree": "Front-end developer",
+		"media": "Media"
+	}
+}

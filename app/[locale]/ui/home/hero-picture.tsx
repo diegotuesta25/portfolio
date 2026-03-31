@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Dots from "./dots";
-import Logo from "../logo";
 import Box from "../box";
+import { useTranslations } from "next-intl";
 
 export default function HeroPicture() {
+	const t = useTranslations("hero");
+
 	return (
 		<div className="flex flex-col items-center justify-center">
 			<Image
@@ -17,7 +18,11 @@ export default function HeroPicture() {
 			<Box className="flex items-center px-5 py-1">
 				<div className="bg-primary border border-gray w-4 h-4" />
 				<p className="text-sm lg:text-lg xl:text-xl">
-					Available for <span className="font-semibold text-white">work</span>
+					{t.rich("textBox", {
+						bold: chunks => (
+							<span className="font-semibold text-white">{chunks}</span>
+						),
+					})}
 				</p>
 			</Box>
 		</div>

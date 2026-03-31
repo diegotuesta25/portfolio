@@ -1,0 +1,58 @@
+{
+	"nav": {
+		"home": "inicio",
+		"projects": "proyectos",
+		"aboutMe": "sobre-mi",
+		"contacts": "contacto"
+	},
+	"hero": {
+		"title": "Diego es un <primary>desarrollador front-end</primary> y <primary>solucionador de problemas</primary>",
+		"subtitle": "Crea sitios web responsivos donde la tecnología se une a la creatividad",
+		"contactBtn": "¡Contáctame!",
+		"downloadCV": "Descargar CV",
+		"textBox": "Disponible para <bold>trabajo</bold>."
+	},
+	"projects": {
+		"title": "proyectos",
+		"completeApps": "aplicaciones-completas",
+		"smallProjects": "proyectos-pequeños",
+		"viewAllBtn": "Ver todo ~~>",
+		"liveBtn": "En vivo <~>",
+		"appDescription1": "Gestiona tus tareas diarias: lleva un registro de lo que está hecho, pendiente y en curso.",
+		"smallApp1": "Desplega todos los Pokemons"
+	},
+	"aboutMe": {
+		"p1": "¡Hola, soy Diego!",
+		"p2": "Soy desarrollador front-end y vivo en Lima, Perú. Soy ingeniero en informática egresado de la Pontificia Universidad Católica del Perú, la mejor universidad del país.",
+		"p3": "Me especializo en la creación de experiencias web modernas y responsivas desde cero, transformando ideas en interfaces limpias y funcionales. Combinar el conocimiento técnico con una gran sensibilidad para el diseño ha sido mi motivación desde que empecé a programar. ",
+		"p4": "Actualmente me enfoco en crecer como desarrollador front-end, trabajando con tecnologías como React, Next.js, TypeScript y Tailwind para crear productos rápidos y fáciles de usar. Siempre busco aprender sobre las últimas tendencias en el mundo del front-end y estoy en busca del equipo ideal para crecer profesionalmente.",
+		"languages": "Lenguajes",
+		"frameworks": "Frameworks",
+		"tools": "Herramientas",
+		"databases": "Base de Datos",
+		"howIThink": "como-pienso",
+		"skills": "habilidades",
+		"aboutMe": "sobre-mi",
+		"t1": "Desarrollo construyendo <b>cosas desde cero</b> y <b>entendiendo cómo funcionan</b> internamente.",
+		"t2": "Disfruto <b>convertir ideas en real</b>, productos funcionales a través de la <b>práctica directa</b>.",
+		"t3": "Presto atención no solo a <b>cómo funcionan las cosas</b>, sino también a <b>cómo se sienten y se ven</b>.",
+		"t4": "Me importa <b>crear interfaces</b> que sean <b>limpias, intuitivas</b> y <b>fáciles de usar</b>.",
+		"t5": "Estoy constantemente <b>aprendiendo construyendo, iterando y mejorando</b> con cada proyecto."
+	},
+	"contact": {
+		"mainTitle": "contacto",
+		"name": "Nombre",
+		"email": "Correo",
+		"title": "Titulo",
+		"message": "Mensaje",
+		"subtitle": "Mandame un correo",
+		"send": "Enviar",
+		"sending": "Enviando...",
+		"success": "Mensaje enviado con éxito",
+		"text": "Actualmente busco oportunidades de empleo a tiempo completo o prácticas en desarrollo front-end. Si tienes alguna pregunta o simplemente quieres ponerte en contacto conmigo, no dudes en escribirme."
+	},
+	"footer": {
+		"degree": "Desarrollador Front-end",
+		"media": "Redes Sociales"
+	}
+}
