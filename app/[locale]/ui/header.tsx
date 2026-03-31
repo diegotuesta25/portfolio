@@ -2,6 +2,7 @@ import Link from "next/link";
 import Logo from "./logo";
 import NavLinks from "./nav-links";
 import Switcher from "./switcher";
+import BurgerMenu from "./burger-menu";
 
 export default function Header() {
 	return (
@@ -14,7 +15,9 @@ export default function Header() {
 				<NavLinks />
 				<Switcher />
 			</div>
-			<button className="flex md:hidden text-white text-2xl">☰</button>
+			<div className="flex md:hidden">
+				<BurgerMenu />
+			</div>
 		</div>
 	);
 }

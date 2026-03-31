@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Icon from "./icon";
 import Logo from "./logo";
 
 export default function Footer() {
+	const t = useTranslations("footer");
 	return (
 		<div className="flex flex-col py-8 gap-12 px-4">
 			<div className="flex items-center justify-between flex-col md:flex-row gap-5 ">
@@ -13,10 +15,10 @@ export default function Footer() {
 						</div>
 						<p className="text-gray">diegotuestav@gmail.com</p>
 					</div>
-					<p className="text-white">Front-end developer</p>
+					<p className="text-white">{t("degree")}</p>
 				</div>
 				<div className="flex flex-col gap-3 items-center md:items-start">
-					<h1 className="font-medium text-2xl text-white">Media</h1>
+					<h1 className="font-medium text-2xl text-white">{t("media")}</h1>
 					<div className="flex gap-2">
 						<Icon icon="github" href="https://github.com/diegotuesta25" />
 						<Icon
