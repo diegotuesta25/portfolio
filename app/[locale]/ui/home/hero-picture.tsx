@@ -8,13 +8,12 @@ export default function HeroPicture() {
 	return (
 		<div className="flex flex-col items-center justify-center">
 			<Image
-				src="/diego-profile.png"
+				src="/diego-profile.webp"
 				width={440}
 				height={440}
 				alt="Diego Picture"
 				className=" z-10 object-cover max-w-110 md:w-full md:max-w-full"
 				priority
-				sizes="(max-width: 768px) 440px, 100vw"
 			/>
 			<Box className="flex items-center px-5 py-1">
 				<div className="bg-primary border border-gray w-4 h-4" />

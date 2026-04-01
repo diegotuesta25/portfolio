@@ -11,7 +11,7 @@ export default function Header() {
 				<Logo width={50} height={50} className="h-7 w-7" />
 				<p className="text-white font-bold md:text-lg xl:text-xl">Diego</p>
 			</Link>
-			<div className="hidden gap-8 items-center md:flex">
+			<div className="hidden gap-5 xl:gap-8 items-center md:flex">
 				<NavLinks />
 				<Switcher />
 			</div>

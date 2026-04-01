@@ -16,7 +16,7 @@ export default function NavLinks() {
 	const t = useTranslations("nav");
 
 	return (
-		<div className="flex gap-8">
+		<div className="flex gap-5 xl:gap-8">
 			{navLinks.map(link => {
 				const localizedHref = `/${locale}${link.href === "/" ? "" : link.href}`;
 				const isActive =

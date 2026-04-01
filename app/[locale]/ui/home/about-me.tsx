@@ -26,13 +26,12 @@ export default function AboutMe({ withTitle = true }: AboutMeProps) {
 					<p>{t("p4")}</p>
 				</div>
 				<Image
-					src="/diego-profile-2.png"
+					src="/diego-profile-2.webp"
 					width={440}
 					height={440}
 					alt="Diego Picture"
 					className=" z-10 object-cover w-full h-auto"
 					priority
-					sizes="(max-width: 768px) 440px, 100vw"
 				/>
 			</div>
 		</div>

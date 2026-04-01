@@ -24,8 +24,9 @@ export default function Projects({
 			description: "appDescription1",
 			href: "https://to-do-list-app-bay-five.vercel.app/",
 			live: true,
-			demo: true,
-			github: false,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
 		},
 	];
 
@@ -39,6 +40,7 @@ export default function Projects({
 			live: false,
 			demo: false,
 			github: true,
+			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
 		},
 	];
 
@@ -51,7 +53,8 @@ export default function Projects({
 			href: "https://to-do-list-app-bay-five.vercel.app/",
 			live: true,
 			demo: false,
-			github: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
 		},
 	];
 
@@ -68,11 +71,11 @@ export default function Projects({
 					<Title title={t("smallProjects")} subtitle />
 				</div>
 			) : recent ? (
-				<div className="flex justify-between items-center">
+				<div className="flex justify-between items-center flex-wrap">
 					<Title
 						title={t("title")}
 						subtitle
-						className=" w-15 lg:w-80 xl:w-160"
+						className=" w-10 md:w-30 lg:w-55 xl:w-100"
 					/>
 					<Link href="/projects" className="text-white font-medium">
 						{t("viewAllBtn")}
@@ -83,7 +86,7 @@ export default function Projects({
 					<Title title={t("completeApps")} subtitle />
 				</div>
 			)}
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 				{displayedProjects.map(p => (
 					<Box
 						key={p.href}
@@ -92,7 +95,9 @@ export default function Projects({
 						variant="text"
 						className="flex flex-col gap-4 p-4"
 					>
-						<h1 className="text-white font-medium text-2xl ">{p.title}</h1>
+						<h1 className="text-white font-medium text-xl xl:text-2xl ">
+							{p.title}
+						</h1>
 						<p>{t(p.description)}</p>
 						<div className="flex gap-2">
 							{p.live && (
@@ -103,17 +108,17 @@ export default function Projects({
 
 							{p.demo && (
 								<Button variant="secondary">
-									Demo <PlayIcon width={20} />
+									Demo <PlayIcon width={15} />
 								</Button>
 							)}
 
 							{p.github && (
 								<Link
-									href="https://github.com/diegotuesta25"
+									href={p.githubUrl}
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<Button variant="primary">{`Github <~>`} </Button>
+									<Button variant="secondary">{`Github <~>`}</Button>
 								</Link>
 							)}
 						</div>
