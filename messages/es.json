@@ -19,7 +19,9 @@
 		"viewAllBtn": "Ver todo ~~>",
 		"liveBtn": "En vivo <~>",
 		"appDescription1": "Gestiona tus tareas diarias: lleva un registro de lo que está hecho, pendiente y en curso.",
-		"smallApp1": "Desplega todos los Pokemons"
+		"appDescription2": "Portafolio personal donde muestro mis proyectos, habilidades y trabajo creativo.",
+		"smallApp1": "Aplicación simple que obtiene y muestra datos de usuarios de GitHub por nombre de usuario.",
+		"smallApp2": "Aplicación del clima simple que muestra datos en tiempo real por ciudad."
 	},
 	"aboutMe": {
 		"p1": "¡Hola, soy Diego!",

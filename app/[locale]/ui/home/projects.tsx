@@ -19,7 +19,7 @@ export default function Projects({
 	const recentProjects = [
 		{
 			src: "/todolistapp-picture.png",
-			tools: "React Next.js Typescript HTML Tailwind Node.js",
+			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
 			title: "To Do List App",
 			description: "appDescription1",
 			href: "https://to-do-list-app-bay-five.vercel.app/",
@@ -27,27 +27,49 @@ export default function Projects({
 			demo: false,
 			github: true,
 			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
+		},
+		{
+			src: "/portfolio-picture.jpg",
+			tools: "React Typescript HTML TailwindCSS",
+			title: "Portfolio App",
+			description: "appDescription2",
+			href: "https://diegotuesta.site",
+			live: true,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/portfolio",
 		},
 	];
 
 	const smallProjects = [
 		{
 			src: "",
-			tools: "React Redux",
-			title: "Pokemon App",
+			tools: "React Typescript TailwindCSS",
+			title: "Github User Finder App",
 			description: "smallApp1",
-			href: "https://www.google.com",
+			href: "",
 			live: false,
 			demo: false,
 			github: true,
-			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
+			githubUrl: "https://github.com/diegotuesta25/github-user-finder",
+		},
+		{
+			src: "",
+			tools: "React Typescript TailwindCSS",
+			title: "Weather App",
+			description: "smallApp2",
+			href: "",
+			live: false,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/weather-app",
 		},
 	];
 
 	const projects = [
 		{
 			src: "/todolistapp-picture.png",
-			tools: "React Next.js Typescript HTML Tailwind Node.js",
+			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
 			title: "To Do List App",
 			description: "appDescription1",
 			href: "https://to-do-list-app-bay-five.vercel.app/",
@@ -55,6 +77,17 @@ export default function Projects({
 			demo: false,
 			github: true,
 			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
+		},
+		{
+			src: "/portfolio-picture.jpg",
+			tools: "React Typescript HTML TailwindCSS",
+			title: "Portfolio App",
+			description: "appDescription2",
+			href: "https://diegotuesta.site",
+			live: true,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/portfolio",
 		},
 	];
 
@@ -89,7 +122,7 @@ export default function Projects({
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 				{displayedProjects.map(p => (
 					<Box
-						key={p.href}
+						key={p.description}
 						src={p.src}
 						title={p.tools}
 						variant="text"

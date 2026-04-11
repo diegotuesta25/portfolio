@@ -19,7 +19,9 @@
 		"viewAllBtn": "View all ~~>",
 		"liveBtn": "Live <~>",
 		"appDescription1": "Manage your daily tasks: track what’s done, pending, and in progress.",
-		"smallApp1": "Fetch all the Pokemons"
+		"appDescription2": "Personal portfolio showcasing my projects, skills, and creative work.",
+		"smallApp1": "Simple app that fetches and displays GitHub user data by username.",
+		"smallApp2": "Simple weather app showing live data by city."
 	},
 	"aboutMe": {
 		"p1": "Hello, I'm Diego!",
