@@ -10,7 +10,8 @@
 		"subtitle": "Crea sitios web responsivos donde la tecnología se une a la creatividad",
 		"contactBtn": "¡Contáctame!",
 		"downloadCV": "Descargar CV",
-		"textBox": "Disponible para <bold>trabajo</bold>."
+		"textBox": "Disponible para <bold>trabajo</bold>.",
+		"cv": "/Diego_Tuesta_Desarrollador_Frontend.pdf"
 	},
 	"projects": {
 		"title": "proyectos",

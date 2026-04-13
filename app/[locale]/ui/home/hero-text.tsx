@@ -21,7 +21,7 @@ export default function HeroText() {
 				<Link href={`/${locale}/contacts`}>
 					<Button variant="primary">{t("contactBtn")}</Button>
 				</Link>
-				<a href="/CV_Diego_Tuesta.pdf" download>
+				<a href={t("cv")} download>
 					<Button variant="secondary">{t("downloadCV")}</Button>
 				</a>
 			</div>

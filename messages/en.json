@@ -10,7 +10,8 @@
 		"subtitle": "He crafts responsive websites where technologies meet creativity",
 		"contactBtn": "Contact me!!",
 		"downloadCV": "Download CV",
-		"textBox": "Available for <bold>work</bold>."
+		"textBox": "Available for <bold>work</bold>.",
+		"cv": "/Diego_Tuesta_Frontend_Developer.pdf"
 	},
 	"projects": {
 		"title": "projects",
