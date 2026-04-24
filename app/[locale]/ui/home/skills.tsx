@@ -19,17 +19,21 @@ export default function Skills() {
 					/>
 				</div>
 				<div className="flex flex-wrap justify-center gap-2">
-					<Box variant="title" title={t("languages")} className="p-2">
-						TypeScript JavaScript HTML
+					<Box variant="title" title={t("frontend")} className="p-2">
+						React Next.js TypeScript JavaScript Zustand TanStack Query
+						Accessibility HTML5 CSS / SCSS
 					</Box>
-					<Box variant="title" title={t("frameworks")} className="p-2">
-						React Next.js Tailwind
+					<Box variant="title" title={t("design")} className="p-2">
+						Tailwind CSS Material UI Figma
+					</Box>
+					<Box variant="title" title={t("backend")} className="p-2 ">
+						Node.js PostgreSQL
+					</Box>
+					<Box variant="title" title={t("testing")} className="p-2 ">
+						Jest React Testing Library
 					</Box>
 					<Box variant="title" title={t("tools")} className="p-2 ">
-						Git Figma VSCode
-					</Box>
-					<Box variant="title" title={t("databases")} className="p-2 ">
-						PostgreSQL
+						Git VS Code Vercel
 					</Box>
 				</div>
 			</div>

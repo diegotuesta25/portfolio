@@ -18,15 +18,15 @@ export default function Projects({
 
 	const recentProjects = [
 		{
-			src: "/todolistapp-picture.png",
+			src: "/taskboard-app.jpg",
 			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
-			title: "To Do List App",
+			title: "Taskboard App",
 			description: "appDescription1",
-			href: "https://to-do-list-app-bay-five.vercel.app/",
+			href: "https://taskboard-app-bay-five.vercel.app/",
 			live: true,
 			demo: false,
 			github: true,
-			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
+			githubUrl: "https://github.com/diegotuesta25/taskboard-app",
 		},
 		{
 			src: "/portfolio-picture.jpg",
@@ -68,15 +68,15 @@ export default function Projects({
 
 	const projects = [
 		{
-			src: "/todolistapp-picture.png",
+			src: "/taskboard-app.jpg",
 			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
-			title: "To Do List App",
+			title: "Taskboard App",
 			description: "appDescription1",
-			href: "https://to-do-list-app-bay-five.vercel.app/",
+			href: "https://taskboard-app-bay-five.vercel.app/",
 			live: true,
 			demo: false,
 			github: true,
-			githubUrl: "https://github.com/diegotuesta25/to-do-list-app",
+			githubUrl: "https://github.com/diegotuesta25/taskboard-app",
 		},
 		{
 			src: "/portfolio-picture.jpg",

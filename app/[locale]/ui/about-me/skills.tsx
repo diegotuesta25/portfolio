@@ -6,32 +6,40 @@ export default function Skills() {
 
 	return (
 		<div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-			<Box variant="title" title={t("languages")} className="p-2">
-				TypeScript JavaScript HTML
+			<Box variant="title" title={t("frontend")} className="p-2">
+				React Next.js TypeScript JavaScript Zustand TanStack Query Accessibility
+				HTML5 CSS / SCSS
 			</Box>
 
 			<Box
 				variant="title"
-				title={t("frameworks")}
+				title={t("design")}
 				className="p-2 col-start-2 row-start-3"
 			>
-				React Next.js Tailwind
+				Tailwind CSS Material UI Figma
 			</Box>
 
+			<Box
+				variant="title"
+				title={t("backend")}
+				className="p-2 col-start-3 row-start-3"
+			>
+				Node.js PostgreSQL
+			</Box>
+
+			<Box
+				variant="title"
+				title={t("testing")}
+				className="p-2 col-start-4 row-start-4"
+			>
+				Jest React Testing Library
+			</Box>
 			<Box
 				variant="title"
 				title={t("tools")}
-				className="p-2 col-start-3 row-start-3"
-			>
-				Git Figma VSCode
-			</Box>
-
-			<Box
-				variant="title"
-				title={t("databases")}
 				className="p-2 col-start-4 row-start-4"
 			>
-				PostgreSQL
+				Git VS Code Vercel
 			</Box>
 		</div>
 	);
