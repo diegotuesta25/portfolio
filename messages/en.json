@@ -21,6 +21,7 @@
 		"liveBtn": "Live <~>",
 		"appDescription1": "Manage your daily tasks: track what’s done, pending, and in progress.",
 		"appDescription2": "Personal portfolio showcasing my projects, skills, and creative work.",
+		"appDescription3": "A full-stack notes application with categories and archive functionality.",
 		"smallApp1": "Simple app that fetches and displays GitHub user data by username.",
 		"smallApp2": "Simple weather app showing live data by city."
 	},

@@ -18,8 +18,8 @@ export default function Projects({
 
 	const recentProjects = [
 		{
-			src: "/taskboard-app.jpg",
-			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
+			src: "/taskmanagement-app.jpg",
+			tools: "React Next.js Typescript HTML TailwindCSS Node.js PostgreSQL",
 			title: "Taskboard App",
 			description: "appDescription1",
 			href: "https://taskboard-app-bay-five.vercel.app/",
@@ -29,7 +29,18 @@ export default function Projects({
 			githubUrl: "https://github.com/diegotuesta25/taskboard-app",
 		},
 		{
-			src: "/portfolio-picture.jpg",
+			src: "/notes-app.jpg",
+			tools: "React Nest.js Prisma Typescript HTML TailwindCSS PostgreSQL",
+			title: "Notes App",
+			description: "appDescription3",
+			href: "",
+			live: false,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/notes-app",
+		},
+		{
+			src: "/portfolio-app.jpg",
 			tools: "React Typescript HTML TailwindCSS",
 			title: "Portfolio App",
 			description: "appDescription2",
@@ -68,7 +79,7 @@ export default function Projects({
 
 	const projects = [
 		{
-			src: "/taskboard-app.jpg",
+			src: "/taskmanagement-app.jpg",
 			tools: "React Next.js Typescript HTML TailwindCSS Node.js",
 			title: "Taskboard App",
 			description: "appDescription1",
@@ -79,7 +90,18 @@ export default function Projects({
 			githubUrl: "https://github.com/diegotuesta25/taskboard-app",
 		},
 		{
-			src: "/portfolio-picture.jpg",
+			src: "/notes-app.jpg",
+			tools: "React Nest.js Prisma Typescript HTML TailwindCSS PostgreSQL",
+			title: "Notes App",
+			description: "appDescription3",
+			href: "",
+			live: false,
+			demo: false,
+			github: true,
+			githubUrl: "https://github.com/diegotuesta25/notes-app",
+		},
+		{
+			src: "/portfolio-app.jpg",
 			tools: "React Typescript HTML TailwindCSS",
 			title: "Portfolio App",
 			description: "appDescription2",

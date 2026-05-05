@@ -27,7 +27,7 @@ export default function Skills() {
 						Tailwind CSS Material UI Figma
 					</Box>
 					<Box variant="title" title={t("backend")} className="p-2 ">
-						Node.js PostgreSQL
+						Nest.js Prisma Node.js PostgreSQL
 					</Box>
 					<Box variant="title" title={t("testing")} className="p-2 ">
 						Jest React Testing Library
